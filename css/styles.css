@@ -274,14 +274,6 @@ button {
     column-gap: 24px;
 }
 .link-svg {
-    width: 16px;
-    height: 16px;
-}
-.link-svg:hover,
-.link-svg:focus {
-    background: var(--color-hover-effect)
-}
-.team-icon {
     display: flex;
     background: #4D5AE5;
     width: 40px;
@@ -289,6 +281,10 @@ button {
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+}
+.link-svg:hover,
+.link-svg:focus {
+    background: var(--color-hover-effect)
 }
 /* =========customers-section========= */
 .customers-title {
@@ -308,13 +304,24 @@ button {
     box-sizing: border-box;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-}
-.customers-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 16px 32px;
 }
 .customers-svg {
    width: 102px;
    height: 56px; 
+}
+.customers-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.customers-link:hover,
+.customers-link:focus {
+    fill: var(--color-hover-effect);
+    border-color: var(--color-hover-effect);
 }
 /* =========customers-section========= */
 
